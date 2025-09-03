@@ -9,10 +9,10 @@ nav_order: 3
 
 ### Important Dates
 
-- **Competition launch with dataset and instructions release**: Sept. 15, 2025
-- **Submission deadline**: Dec. 15, 2025
-- **Finalists announced**: Jan. 15, 2026
-- **Live competition and winners announced**: During OFC 2026 (Mar. 15–19) [tentative]
+- **Competition launch with dataset and instructions release**: Sept. 30, 2025
+- **Submission deadline**: Jan. 30, 2026
+- **Finalists announced**: Feb. 15, 2026
+- **Live competition and winners announced**: During OFC 2026 (Mar. 15–19) 
 
 ## Award
 
@@ -27,4 +27,4 @@ Please submit your predicted `csv` file to this year [Kaggle submission platform
 
 If you have any questions about the submission process, please contact:
 
-**Email**: [ofc.ml.challenge@gmail.com](mailto:ofc.ml.challenge@gmail.com)
+**Email**: [ofc.ml.challenge@gmail.com](mailto:ofc.ml.challenge@gmail.com) or [zehao.w@duke.edu](mailto:zehao.w@duke.edu)
