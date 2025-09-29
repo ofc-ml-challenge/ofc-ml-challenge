@@ -38,6 +38,7 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 ## Results submission 
 
 - Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/t/6b41bccbf1a04782b7b3f4bc3f21041b)
+- We will also evaluate your model based on factors such as model size, inference time, and the novelty of the model architecture. Please create a GitHub repository ([example](https://github.com/ofc-ml-challenge/ofc-ml-challenge-test)) and provide clear step-by-step instructions on how to run your model.
 
 ## Acknowledgement
 - Event organizer: [OFC](https://www.ofcconference.org/) 
