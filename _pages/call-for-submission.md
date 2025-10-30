@@ -32,6 +32,11 @@ How to Participate
 
 3. To be eligible for the awards, you must submit a report to [ofc.ml.challenge@gmail.com](mailto:ofc.ml.challenge@gmail.com), describing the model you used to obtain the prediction, upload and public your model/runnable code on the github, and attach the predicted CSV file. 
 
+## Evaluation Metrics
+- 60 credits: 20 credit per testcase results
+- 30 credits: 1-2 page report in terms of novelty, innovations, and clarity
+- 10 credits: artifact for rerun the model
+
 ## Questions?
 
 If you have any questions about the submission process, please contact:
