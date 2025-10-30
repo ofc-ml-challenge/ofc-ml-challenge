@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Important Dates
 
-- **Competition launch with dataset and instructions release**: Sept. 30, 2025
+- **Competition launch with dataset and instructions release**: Oct. 31, 2025
 - **Submission deadline**: Jan. 30, 2026
 - **Finalists announced**: Feb. 15, 2026
 - **Live competition and winners announced**: During OFC 2026 (Mar. 15–19) 
@@ -21,7 +21,7 @@ nav_order: 3
 
 ## Submission Details
 
-Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/t/6b41bccbf1a04782b7b3f4bc3f21041b)
+Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/t/6b41bccbf1a04782b7b3f4bc3f21041b) and upload your model/runnable code on the github and send the link to [us](mailto:ofc.ml.challenge@gmail.com). 
 
 ## Questions?
 

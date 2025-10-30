@@ -24,7 +24,7 @@ We are proud to anounce the first OFC 2026 ML Challenge. For more information in
 
 ## Deadline
 
-The submission deadline of the OFC'26 ML Challenge will be **Dec. 15, 2026**
+The submission deadline of the OFC'26 ML Challenge will be **Jan. 30, 2026**
 
 ## Related Events
 
