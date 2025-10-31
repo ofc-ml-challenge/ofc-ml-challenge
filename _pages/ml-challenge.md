@@ -44,3 +44,18 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 - Event organizer: [OFC](https://www.ofcconference.org/) 
 - PI: Tingjun Chen, Danniel Kilper
 - Student host: Zehao Wang, Mingzhe Han
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ZehaoWang.jpg" class="img-fluid rounded z-depth-1" caption="Zehao Wang" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/MingzheHan.jpg" class="img-fluid rounded z-depth-1" caption="Mingzhe Han" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tingjunchen.jpg" class="img-fluid rounded z-depth-1" caption="Tingjun Chen" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dankilper.jfif" class="img-fluid rounded z-depth-1" caption="Danniel Kilper" %}
+    </div>
+</div>
