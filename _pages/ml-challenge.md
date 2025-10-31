@@ -41,9 +41,9 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 - We will also evaluate your model based on factors such as model size, inference time, and the novelty of the model architecture. Please create a GitHub repository ([example](https://github.com/ofc-ml-challenge/ofc-ml-challenge-test)) and provide clear step-by-step instructions on how to run your model.
 
 ## Acknowledgement
-- Event organizer: [OFC](https://www.ofcconference.org/) 
+<!-- - Event organizer: [OFC](https://www.ofcconference.org/) 
 - PI: Tingjun Chen, Danniel Kilper
-- Student host: Zehao Wang, Mingzhe Han
+- Student host: Zehao Wang, Mingzhe Han -->
 
 <style>
   .caption {
@@ -51,10 +51,16 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
     font-weight: 500;
     margin-top: 0.5em;
   }
-  .row.mt-3 figure img {
+  .row.mt-3:first-of-type figure img {
     height: 250px;
     width: 100%;
     object-fit: cover;
+    object-position: center;
+  }
+  .row.mt-3 figure img[src*="logo_ofc"] {
+    height: auto !important;
+    width: 100%;
+    object-fit: contain;
     object-position: center;
   }
 </style>
