@@ -45,6 +45,20 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 - PI: Tingjun Chen, Danniel Kilper
 - Student host: Zehao Wang, Mingzhe Han
 
+<style>
+  .caption {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 0.5em;
+  }
+  .row.mt-3 figure img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+</style>
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/ZehaoWang.jpg" class="img-fluid rounded z-depth-1" caption="Zehao Wang" %}
@@ -57,5 +71,11 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/dankilper.jfif" class="img-fluid rounded z-depth-1" caption="Danniel Kilper" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/logo_ofc_with_tag_blue.png" class="img-fluid rounded z-depth-1" caption="Event Organizer" %}
     </div>
 </div>
