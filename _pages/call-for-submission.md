@@ -27,7 +27,7 @@ How to Participate
 2. Run your model to obtain predictions for each task included in the challenge track
 3. [optional] Verify your model performance before submitting 
     1. Create an account on kaggle platform.
-    2. Upload your results on the [Kaggle submission platform](https://www.kaggle.com/t/6b41bccbf1a04782b7b3f4bc3f21041b) for the validation. 
+    2. Upload your results on the [Kaggle submission platform](https://www.kaggle.com/competitions/ofc-2026-ml-challenge/overview) for the validation. 
 
 4. To be eligible for the awards, you must submit a report to [ofc.ml.challenge@gmail.com](mailto:ofc.ml.challenge@gmail.com), describing the model you used to obtain the prediction, upload and public your model/runnable code on the github, and attach the predicted CSV file. 
 

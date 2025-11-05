@@ -33,12 +33,12 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 ## Dataset repo
 
 - We will provide all the codes for pre-processing the measurements data and a simple ML-based model just for reference
-- Please refer to the [dataset website](https://github.com/ofc-ml-challenge/ofc-ml-challenge-test) for more details
+- Please refer to the [dataset website](https://github.com/ofc-ml-challenge/ofc-ml-challenge-data-code) for more details
 
 ## Results submission 
 
-- Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/t/6b41bccbf1a04782b7b3f4bc3f21041b)
-- We will also evaluate your model based on factors such as model size, inference time, and the novelty of the model architecture. Please create a GitHub repository ([example](https://github.com/ofc-ml-challenge/ofc-ml-challenge-test)) and provide clear step-by-step instructions on how to run your model.
+- Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/competitions/ofc-2026-ml-challenge/overview)
+- We will also evaluate your model based on factors such as model size, inference time, and the novelty of the model architecture. Please create a GitHub repository ([example](https://github.com/ofc-ml-challenge/ofc-ml-challenge-data-code)) and provide clear step-by-step instructions on how to run your model.
 
 ## Acknowledgement
 <!-- - Event organizer: [OFC](https://www.ofcconference.org/) 
@@ -59,7 +59,7 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
   }
   .row.mt-3 figure img[src*="logo_ofc"] {
     height: auto !important;
-    width: 100%;
+    width: 50%;
     object-fit: contain;
     object-position: center;
   }
