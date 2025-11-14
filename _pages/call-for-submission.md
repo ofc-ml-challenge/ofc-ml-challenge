@@ -33,7 +33,7 @@ How to Participate
 
 ## Evaluation Metrics
 - 60 credits: 20 credit per testcase results
-- 30 credits: 1-2 page report in terms of novelty, innovations, and clarity
+- 30 credits: 1-2 page report ([overleaf template](https://www.overleaf.com/read/nrsmwhchhqgq#a5fcb6)) in terms of novelty, innovations, and clarity
 - 10 credits: artifact for rerun the model
 
 ## Questions?
