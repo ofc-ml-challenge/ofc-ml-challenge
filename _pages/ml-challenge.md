@@ -24,6 +24,15 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 - Spectrum hole burning effect
 - Unmeasured gain and tilt settings of EDFA
 
+Here are the examples for typical gain spectrum under these three test goals:
+
+- EDFA channel gain aging effect
+
+- Spectrum hole burning effect
+
+- Unmeasured gain and tilt settings of EDFA
+
+
 ## Challenge Details
 
 - **Objective**: Develop Theoretical, analytical or ML models that can accurately predict the gain profile of commercial EDFAs under various operating conditions
@@ -70,9 +79,15 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
     margin-top: 0.5em;
   }
   .row.mt-3:first-of-type figure img {
-    height: 250px;
+    height: auto;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+  }
+  .row.mt-3 figure img[src*="Github_diagram"] {
+    height: auto !important;
+    width: 100%;
+    object-fit: contain !important;
     object-position: center;
   }
   .row.mt-3 figure img[src*="logo_ofc"] {
