@@ -99,7 +99,11 @@ Here are the examples for typical gain spectrum under these three test goals:
   .row.mt-3:last-of-type figure {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .row.mt-3:last-of-type .col-sm {
+    text-align: center;
   }
   .row.mt-3:last-of-type figure picture,
   .row.mt-3:last-of-type figure img {
