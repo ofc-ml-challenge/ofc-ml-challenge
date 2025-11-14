@@ -96,19 +96,10 @@ Here are the examples for typical gain spectrum under these three test goals:
     object-fit: contain;
     object-position: center;
   }
-  .row.mt-3:last-of-type figure {
-    position: relative;
-  }
   .row.mt-3:last-of-type figure figcaption {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 8px 12px;
-    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: 0.5em;
     font-weight: 500;
-    border-radius: 4px;
-    white-space: nowrap;
   }
 </style>
 
