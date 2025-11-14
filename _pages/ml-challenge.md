@@ -30,10 +30,28 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 - **Dataset**: We will provide a large EDFA gain profile dataset which is collected three years ago, and a small amount of the EDFA measurements we collect recently aiming the three technique issue we mentioned above.
 - **Evaluation**: Models will be scored based on prediction accuracy under an hidden testset with three aspects mentioned above.
 
-## Dataset repo
+## Dataset repo and submission platform
 
+### Dataset and example code 
 - We will provide all the codes for pre-processing the measurements data and a simple ML-based model just for reference
 - Please refer to the [dataset website](https://github.com/ofc-ml-challenge/ofc-ml-challenge-data-code) for more details
+- Dataset repo including:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Github_diagram.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Submission platform 
+- We provide detailed tutorial for the dataset explaination
+- This is the official submission platform where you can see your score on the test set for real time
+- There is a discussion panel on the competition page where you can post your questions 
+- Submission platform including:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Kaggle_diagram.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Results submission 
 
@@ -62,6 +80,20 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
     width: 50%;
     object-fit: contain;
     object-position: center;
+  }
+  .row.mt-3:last-of-type figure {
+    position: relative;
+  }
+  .row.mt-3:last-of-type figure figcaption {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    border-radius: 4px;
+    white-space: nowrap;
   }
 </style>
 
