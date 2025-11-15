@@ -27,7 +27,7 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 Here are the examples for typical gain spectrum under these three test goals:
 
 - EDFA channel gain aging effect
-  - EDFA gain profile changes over 3 years on the same device 
+    - EDFA gain profile changes over 3 years on the same device 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,7 +36,7 @@ Here are the examples for typical gain spectrum under these three test goals:
 </div>
 
 - Spectrum hole burning effect
- - Gain profile especially under goalpost channel loading
+    - Gain profile especially under goalpost channel loading
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -45,8 +45,8 @@ Here are the examples for typical gain spectrum under these three test goals:
 </div>
 
 - Unmeasured gain and tilt settings of EDFA
- - We will NOT provide the gain profile data for 20 dB and test your model generizability for unseen gain
- - We will provide small amount of the EDFA gain profile with tilt and a larger dataset with all tilt equaling to 0 dB, and test your model performance on the tilted gain 
+    - We will NOT provide the gain profile data for 20 dB and test your model generizability for unseen gain
+    - We will provide small amount of the EDFA gain profile with tilt and a larger dataset with all tilt equaling to 0 dB, and test your model performance on the tilted gain 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -117,6 +117,24 @@ Here are the examples for typical gain spectrum under these three test goals:
     width: 50%;
     object-fit: contain;
     object-position: center;
+  }
+  .row.mt-3 figure img[src*="edfa_aging"],
+  .row.mt-3 figure img[src*="edfa_shb"],
+  .row.mt-3 figure img[src*="edfa_unseen"] {
+    height: auto !important;
+    width: 50% !important;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .row.mt-3 figure[class*="img-fluid"] {
+    text-align: center;
+  }
+  .row.mt-3 .col-sm:has(img[src*="edfa_aging"]),
+  .row.mt-3 .col-sm:has(img[src*="edfa_shb"]),
+  .row.mt-3 .col-sm:has(img[src*="edfa_unseen"]) {
+    text-align: center;
   }
   .row.mt-3:last-of-type figure {
     position: relative;
