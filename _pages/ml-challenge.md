@@ -27,16 +27,38 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 Here are the examples for typical gain spectrum under these three test goals:
 
 - EDFA channel gain aging effect
+  - EDFA gain profile changes over 3 years on the same device 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/edfa_aging.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 - Spectrum hole burning effect
+ - Gain profile especially under goalpost channel loading
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/edfa_shb.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 - Unmeasured gain and tilt settings of EDFA
+ - We will NOT provide the gain profile data for 20 dB and test your model generizability for unseen gain
+ - We will provide small amount of the EDFA gain profile with tilt and a larger dataset with all tilt equaling to 0 dB, and test your model performance on the tilted gain 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/edfa_unseen.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 ## Challenge Details
 
 - **Objective**: Develop Theoretical, analytical or ML models that can accurately predict the gain profile of commercial EDFAs under various operating conditions
-- **Dataset**: We will provide a large EDFA gain profile dataset which is collected three years ago, and a small amount of the EDFA measurements we collect recently aiming the three technique issue we mentioned above.
+- **Dataset**: We will provide a large COSMOS EDFA gain profile dataset which is collected three years ago, and a small amount of the EDFA measurements we collect recently aiming the three technique issue we mentioned above.
 - **Evaluation**: Models will be scored based on prediction accuracy under an hidden testset with three aspects mentioned above.
 
 ## Dataset repo and submission platform
