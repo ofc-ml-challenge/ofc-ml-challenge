@@ -137,7 +137,6 @@ Here are the examples for typical gain spectrum under these three test goals:
     text-align: center;
   }
   .row.mt-3:last-of-type figure {
-    position: relative;
     display: inline-block;
     width: 50%;
     margin: 0 auto;
@@ -151,17 +150,9 @@ Here are the examples for typical gain spectrum under these three test goals:
     width: 100%;
   }
   .row.mt-3:last-of-type figure figcaption {
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
     text-align: center;
-    padding: 8px 12px;
-    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 0.5em;
     font-weight: 500;
-    border-radius: 4px;
-    white-space: nowrap;
-    margin: 0 !important;
   }
 </style>
 
