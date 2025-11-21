@@ -24,10 +24,11 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 - Spectrum hole burning effect
 - Unmeasured gain and tilt settings of EDFA
 
-Here are the examples for typical gain spectrum under these three test goals:
+Here are the examples for typical gain spectrum under these three test goals, detailed description can be found in the [kaggle competition description](https://www.kaggle.com/competitions/ofc-2026-ml-challenge/overview)
 
 - EDFA channel gain aging effect
     - EDFA gain profile changes over 3 years on the same device 
+    - We will only provide a small amount of the EDFA gain profile with aging effect for the training set
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,6 +38,7 @@ Here are the examples for typical gain spectrum under these three test goals:
 
 - Spectrum hole burning effect
     - Gain profile especially under goalpost channel loading
+    - We will not provide any goalpost channel loading data for the training set
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -106,11 +108,14 @@ Here are the examples for typical gain spectrum under these three test goals:
     object-fit: contain;
     object-position: center;
   }
-  .row.mt-3 figure img[src*="Github_diagram"] {
+  .row.mt-3 figure img[src*="Github_diagram"],
+  .row.mt-3 figure img[src*="Kaggle_diagram"] {
     height: auto !important;
-    width: 100%;
+    width: 75% !important;
     object-fit: contain !important;
     object-position: center;
+    display: block;
+    margin: 0 auto;
   }
   .row.mt-3 figure img[src*="logo_ofc"] {
     height: auto !important;
@@ -168,6 +173,9 @@ Here are the examples for typical gain spectrum under these three test goals:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/dankilper.jfif" class="img-fluid rounded z-depth-1" caption="Danniel Kilper" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Camille.png" class="img-fluid rounded z-depth-1" caption="Camille Delezoide" %}
     </div>
 </div>
 
