@@ -91,7 +91,7 @@ Here are the examples for typical gain spectrum under these three test goals, de
 - Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/competitions/ofc-2026-ml-challenge/overview)
 - We will also evaluate your model based on factors such as model size, inference time, and the novelty of the model architecture. Please create a GitHub repository ([example](https://github.com/ofc-ml-challenge/ofc-ml-challenge-data-code)) and provide clear step-by-step instructions on how to run your model.
 
-## Acknowledgement
+## Organizer
 <!-- - Event organizer: [OFC](https://www.ofcconference.org/) 
 - PI: Tingjun Chen, Danniel Kilper
 - Student host: Zehao Wang, Mingzhe Han -->
@@ -136,38 +136,9 @@ Here are the examples for typical gain spectrum under these three test goals, de
   .row.mt-3 figure[class*="img-fluid"] {
     text-align: center;
   }
-  .row.mt-3 .col-sm:has(img[src*="edfa_aging"]),
-  .row.mt-3 .col-sm:has(img[src*="edfa_shb"]),
-  .row.mt-3 .col-sm:has(img[src*="edfa_unseen"]) {
-    text-align: center;
-  }
-  .row.mt-3:last-of-type figure {
-    display: inline-block;
-    width: 50%;
-    margin: 0 auto;
-  }
-  .row.mt-3:last-of-type .col-sm {
-    text-align: center;
-  }
-  .row.mt-3:last-of-type figure picture,
-  .row.mt-3:last-of-type figure img {
-    display: block;
-    width: 100%;
-  }
-  .row.mt-3:last-of-type figure figcaption {
-    text-align: center;
-    margin-top: 0.5em;
-    font-weight: 500;
-  }
 </style>
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ZehaoWang.jpg" class="img-fluid rounded z-depth-1" caption="Zehao Wang" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/MingzheHan.jpg" class="img-fluid rounded z-depth-1" caption="Mingzhe Han" %}
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/tingjunchen.jpg" class="img-fluid rounded z-depth-1" caption="Tingjun Chen" %}
     </div>
@@ -182,5 +153,16 @@ Here are the examples for typical gain spectrum under these three test goals, de
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/logo_ofc_with_tag_blue.png" class="img-fluid rounded z-depth-1" caption="Event Organizer" %}
+    </div>
+</div>
+
+## Acknowledgement
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ZehaoWang.jpg" class="img-fluid rounded z-depth-1" caption="Zehao Wang" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/MingzheHan.jpg" class="img-fluid rounded z-depth-1" caption="Mingzhe Han" %}
     </div>
 </div>
