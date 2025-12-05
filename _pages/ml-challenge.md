@@ -122,6 +122,8 @@ Here are the examples for typical gain spectrum under these three test goals, de
     width: 50%;
     object-fit: contain;
     object-position: center;
+    display: block;
+    margin: 0 auto;
   }
   .row.mt-3 figure img[src*="edfa_aging"],
   .row.mt-3 figure img[src*="edfa_shb"],
@@ -134,7 +136,10 @@ Here are the examples for typical gain spectrum under these three test goals, de
     margin: 0 auto;
   }
   .row.mt-3 figure img[src*="ZehaoWang"],
-  .row.mt-3 figure img[src*="MingzheHan"] {
+  .row.mt-3 figure img[src*="MingzheHan"],
+  .row.mt-3 figure img[src*="tingjunchen"],
+  .row.mt-3 figure img[src*="dankilper"],
+  .row.mt-3 figure img[src*="Camille"] {
     height: auto !important;
     width: 50% !important;
     object-fit: contain;
