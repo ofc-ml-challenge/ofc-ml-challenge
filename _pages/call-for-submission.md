@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Important Dates
 
-- **Competition launch with dataset and instructions release**: Nov. 13, 2025
+- **Competition launch with dataset and instructions release**: Dec. 1, 2025
 - **Submission deadline**: Jan. 30, 2026
 - **Finalists announced**: Feb. 15, 2026
 - **Live competition and winners announced**: During OFC 2026 (Mar. 15–19) 
