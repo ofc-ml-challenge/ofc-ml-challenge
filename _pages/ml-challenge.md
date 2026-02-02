@@ -205,7 +205,7 @@ Here are the examples for typical gain spectrum under these three test goals, de
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         <a href="https://athena.duke.edu/" target="_blank">
-            {% include figure.liquid path="assets/img/Athena.svg" class="img-fluid rounded z-depth-1 ack-logo" %}
+            {% include figure.liquid path="assets/img/Athena.png" class="img-fluid rounded z-depth-1 ack-logo" %}
         </a>
     </div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
