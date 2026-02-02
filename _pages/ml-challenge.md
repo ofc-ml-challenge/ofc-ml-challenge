@@ -27,8 +27,8 @@ Especially under dynamic channel loading conditions. Recently, researchers achei
 Here are the examples for typical gain spectrum under these three test goals, detailed description can be found in the [kaggle competition description](https://www.kaggle.com/competitions/ofc-2026-ml-challenge/overview)
 
 - EDFA channel gain aging effect
-    - EDFA gain profile changes over 3 years on the same device 
-    - We will only provide a small amount of the EDFA gain profile with aging effect for the training set
+  - EDFA gain profile changes over 3 years on the same device
+  - We will only provide a small amount of the EDFA gain profile with aging effect for the training set
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,8 +37,8 @@ Here are the examples for typical gain spectrum under these three test goals, de
 </div>
 
 - Spectrum hole burning effect
-    - Gain profile especially under goalpost channel loading
-    - We will not provide any goalpost channel loading data for the training set
+  - Gain profile especially under goalpost channel loading
+  - We will not provide any goalpost channel loading data for the training set
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,15 +47,14 @@ Here are the examples for typical gain spectrum under these three test goals, de
 </div>
 
 - Unmeasured gain and tilt settings of EDFA
-    - We will NOT provide the gain profile data for 20 dB and test your model generizability for unseen gain
-    - We will provide small amount of the EDFA gain profile with tilt and a larger dataset with all tilt equaling to 0 dB, and test your model performance on the tilted gain 
+  - We will NOT provide the gain profile data for 20 dB and test your model generizability for unseen gain
+  - We will provide small amount of the EDFA gain profile with tilt and a larger dataset with all tilt equaling to 0 dB, and test your model performance on the tilted gain
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/edfa_unseen.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 ## Challenge Details
 
@@ -65,7 +64,8 @@ Here are the examples for typical gain spectrum under these three test goals, de
 
 ## Dataset repo and submission platform
 
-### Dataset and example code 
+### Dataset and example code
+
 - We will provide all the codes for pre-processing the measurements data and a simple ML-based model just for reference
 - Please refer to the [dataset website](https://github.com/ofc-ml-challenge/ofc-ml-challenge-data-code) for more details
 - Dataset repo including:
@@ -75,10 +75,11 @@ Here are the examples for typical gain spectrum under these three test goals, de
     </div>
 </div>
 
-### Submission platform 
+### Submission platform
+
 - We provide detailed tutorial for the dataset explaination
 - This is the official submission platform where you can see your score on the test set for real time
-- There is a discussion panel on the competition page where you can post your questions 
+- There is a discussion panel on the competition page where you can post your questions
 - Submission platform including:
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -86,13 +87,14 @@ Here are the examples for typical gain spectrum under these three test goals, de
     </div>
 </div>
 
-## Results submission 
+## Results submission
 
 - Please submit your predicted `csv` file to this year [Kaggle submission platform](https://www.kaggle.com/competitions/ofc-2026-ml-challenge/overview)
 - We will also evaluate your model based on factors such as model size, inference time, and the novelty of the model architecture. Please create a GitHub repository ([example](https://github.com/ofc-ml-challenge/ofc-ml-challenge-data-code)) and provide clear step-by-step instructions on how to run your model.
 
 ## Organizer
-<!-- - Event organizer: [OFC](https://www.ofcconference.org/) 
+
+<!-- - Event organizer: [OFC](https://www.ofcconference.org/)
 - PI: Tingjun Chen, Danniel Kilper
 - Student host: Zehao Wang, Mingzhe Han -->
 
@@ -157,6 +159,18 @@ Here are the examples for typical gain spectrum under these three test goals, de
   .row.mt-3 figure[class*="img-fluid"] {
     text-align: center;
   }
+  .row.mt-3 figure img[src*="Athena"],
+  .row.mt-3 figure img[src*="CUbiC"],
+  .row.mt-3 figure img[src*="cosmos"],
+  .row.mt-3 figure img[src*="6g-xcel"] {
+    height: 80px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+  }
 </style>
 
 <div class="row mt-3">
@@ -185,5 +199,28 @@ Here are the examples for typical gain spectrum under these three test goals, de
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/MingzheHan.jpg" class="img-fluid rounded z-depth-1" caption="Mingzhe Han" %}
+    </div>
+</div>
+
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        <a href="https://athena.duke.edu/" target="_blank">
+            {% include figure.liquid path="assets/img/Athena.svg" class="img-fluid rounded z-depth-1 ack-logo" %}
+        </a>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        <a href="https://cubic.engineering.columbia.edu/" target="_blank">
+            {% include figure.liquid path="assets/img/CUbiC.png" class="img-fluid rounded z-depth-1 ack-logo" %}
+        </a>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        <a href="https://cosmos-lab.org/" target="_blank">
+            {% include figure.liquid path="assets/img/cosmos.png" class="img-fluid rounded z-depth-1 ack-logo" %}
+        </a>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        <a href="https://www.6g-xcel.eu/" target="_blank">
+            {% include figure.liquid path="assets/img/6g-xcel.svg" class="img-fluid rounded z-depth-1 ack-logo" %}
+        </a>
     </div>
 </div>
