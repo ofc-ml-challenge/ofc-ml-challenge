@@ -148,7 +148,8 @@ Here are the examples for typical gain spectrum under these three test goals, de
     margin: 0 auto;
   }
   .row.mt-3 figure img[src*="ZehaoWang"],
-  .row.mt-3 figure img[src*="MingzheHan"] {
+  .row.mt-3 figure img[src*="MingzheHan"],
+  .row.mt-3 figure img[src*="kaixuan"] {
     height: auto !important;
     width: 33.33% !important;
     object-fit: contain;
@@ -162,7 +163,8 @@ Here are the examples for typical gain spectrum under these three test goals, de
   .row.mt-3 figure img[src*="Athena"],
   .row.mt-3 figure img[src*="CUbiC"],
   .row.mt-3 figure img[src*="cosmos"],
-  .row.mt-3 figure img[src*="6g-xcel"] {
+  .row.mt-3 figure img[src*="6g-xcel"],
+  .row.mt-3 figure img[src*="connect_logo"] {
     height: 80px !important;
     width: auto !important;
     max-width: 100% !important;
@@ -200,6 +202,9 @@ Here are the examples for typical gain spectrum under these three test goals, de
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/MingzheHan.jpg" class="img-fluid rounded z-depth-1" caption="Mingzhe Han" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/kaixuan.webp" class="img-fluid rounded z-depth-1" caption="Kaixuan Sun" %}
+    </div>
 </div>
 
 <div class="row mt-3 justify-content-center">
@@ -222,5 +227,8 @@ Here are the examples for typical gain spectrum under these three test goals, de
         <a href="https://www.6g-xcel.eu/" target="_blank">
             {% include figure.liquid path="assets/img/6g-xcel.svg" class="img-fluid rounded z-depth-1 ack-logo" %}
         </a>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        {% include figure.liquid path="assets/img/connect_logo.png" class="img-fluid rounded z-depth-1 ack-logo" %}
     </div>
 </div>
