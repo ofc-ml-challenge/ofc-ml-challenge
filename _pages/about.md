@@ -26,6 +26,21 @@ We are proud to anounce the first OFC 2026 ML Challenge. For more information in
 
 The submission deadline of the OFC'26 ML Challenge will be **Jan. 30, 2026**
 
+## Competition Results
+
+Congratulations to the **SJTU team from Shanghai Jiao Tong University** for winning the **2026 OFC ML Challenge**!
+
+The SJTU team achieved the best overall performance among all four teams in the live competition:
+
+| Category | Weighted Loss |
+| :--- | :---: |
+| Aging | 0.13 |
+| SHB | 0.08 |
+| Unseen | 0.10 |
+| **Overall** | **0.11** |
+
+Stay tuned for the **OFC 2027 ML Challenge** — we look forward to seeing even more teams push the frontier of machine learning for optical networks!
+
 ## Related Events
 
 Looking for more opportunities to contribute to the optical networking community? Check out these related events and resources!
